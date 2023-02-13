@@ -1,0 +1,99 @@
+body {
+	margin: -1rem;
+	background-color: #f7f7f5;
+	width: 1305px;
+	overflow: overlay;
+}
+body::-webkit-scrollbar {
+	width: 12px;               /* ширина scrollbar */
+}
+/* body::-webkit-scrollbar-track { */
+	/* background: white;        цвет дорожки */
+/* } */
+body::-webkit-scrollbar-thumb {
+	background-color: #018901;    /* цвет плашки */
+	border-radius: 20px;       /* закругления плашки */
+	border: 3px solid #018901;  /* padding вокруг плашки */
+}
+.verh {
+	background-color: #018901;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	padding-left: 25px;
+	color: whitesmoke;
+	font-family: "Multiround Pro";
+	font-size: 36px;
+	margin-top: 6px;
+}
+@font-face {
+	font-family: "Multiround Pro";
+	src: url("шрифты/MultiroundPro.otf");
+}
+@font-face {
+	font-family: "As-Nova Regular";
+	src: url("шрифты/3127-font.ttf");
+}
+.tx {
+	font-family: "As-Nova Regular";
+	font-size: 16px;
+}
+.message {
+	position: absolute;
+	display: flex;
+	padding: 21px 21px 21px 21px;
+	background-color: #e9e5e5;
+}
+.message-bot {
+	border-radius: 25px 25px 25px 0;
+	left: 87px;
+	position: absolute;
+}
+.message-user {
+	position: absolute;
+	border-radius: 25px 25px 0 25px;
+	right: 87px;
+}
+.avatar-bot {
+background-image: url(/images/ава\ бота.png);
+border: #018901 solid 1px;
+	border-radius: 90px;
+	position: absolute;
+	display: inline;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+}
+.avatar-user {
+	background-image: url(/images/ава\ пользователя.png);
+	border-radius: 90px;
+	border: #2c0afd solid 1px;
+	position: absolute;
+	display:inline;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+}
+.bot-nik {
+	font-family: "As-Nova Regular";
+	font-size: 14px;
+	position: absolute;
+	left: 25px;
+	display: inline;
+}
+.user-nik {
+	font-family: "As-Nova Regular";
+	font-size: 14px;
+	position: absolute;
+	display: inline;
+	right: 35px;
+}
+.line {
+	position: absolute;
+	height: 1px;
+	width: 1200px;
+	left: 53px;
+	background-color: #B4AAAA;
+}
+.cover {
+	object-fit: cover;
+}
