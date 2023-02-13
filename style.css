@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 	right: 87px;
 }
 .avatar-bot {
-background-image: url(/images/ава\ бота.png);
+background-image: url(images/ава\ бота.png);
 border: #018901 solid 1px;
 	border-radius: 90px;
 	position: absolute;
@@ -64,7 +64,7 @@ border: #018901 solid 1px;
 	left: 25px;
 }
 .avatar-user {
-	background-image: url(/images/ава\ пользователя.png);
+	background-image: url(images/ава\ пользователя.png);
 	border-radius: 90px;
 	border: #2c0afd solid 1px;
 	position: absolute;
