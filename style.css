@@ -110,3 +110,9 @@ border: #018901 solid 1px;
 	top: 90px; 
 	left: 620px;
 }
+.imb2 {
+	background-image: url(images/фото1.jpeg); 
+	width: 600px;
+	height:300px; 
+	border-radius: 25px;
+}
