@@ -98,5 +98,5 @@ border: #018901 solid 1px;
 	object-fit: cover;
 }
 .im {
-	background-image: url(images/фото1.jpeg);
+	background-image: url(../images/фото1.jpeg);
 }
