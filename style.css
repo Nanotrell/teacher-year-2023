@@ -100,3 +100,13 @@ border: #018901 solid 1px;
 /* .im {
 	background-image: url(../images/фото1.jpeg);
 } */
+.imb {
+	height: 65px; 
+	width: 65px; 
+	background-image: url("img/images/ава бота.png");
+	border: solid #018901 1px; 
+	border-radius: 90px; 
+	position: absolute; 
+	top: 90px; 
+	left: 620px;
+}
