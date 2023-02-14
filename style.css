@@ -105,6 +105,7 @@ border: #018901 solid 1px;
 	width: 65px; 
 	background-image: url(images/большая-ава-бота.png);
 	border: solid #018901 1px; 
+	object-fit: cover;
 	border-radius: 90px; 
 	position: absolute; 
 	top: 90px; 
