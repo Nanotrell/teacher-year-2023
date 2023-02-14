@@ -104,7 +104,7 @@ border: #018901 solid 1px;
 	height: 65px; 
 	width: 65px; 
 	background-image: url(images/ава-бота.png);
-	object-fit: cover;
+	object-fit: fill;
 	border: solid #018901 1px; 
 	border-radius: 90px; 
 	position: absolute; 
