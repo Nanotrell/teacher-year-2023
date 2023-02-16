@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
 .message-user {
 	position: absolute;
 	border-radius: 25px 25px 0 25px;
-	right: 87px;
+	/* right: 87px; */
 }
 .avatar-bot {
 background-image: url(images/ава-бота.png);
@@ -97,9 +97,6 @@ border: #018901 solid 1px;
 .cover {
 	object-fit: cover;
 }
-/* .im {
-	background-image: url(../images/фото1.jpeg);
-} */
 .imb {
 	height: 65px; 
 	width: 65px; 
@@ -116,4 +113,76 @@ border: #018901 solid 1px;
 	width: 600px;
 	height:300px; 
 	border-radius: 25px;
+}
+.bio-block {
+	position: absolute;
+	left: 53px;
+	background-color: #f2eeee;
+	border: 1px solid #b4aaaa;
+	border-radius: 25px;
+	width: 972px;
+}
+.bio-image {
+	position: absolute;
+	left: 79px;
+	border: solid 1px #000000;
+	border-radius: 25px;
+	width: 300px;
+	height: 300px;
+}
+.biom1 {
+	background-image: url(images/макаренко.jpg);
+	background-size: cover;
+	background-position: 0px -15px;
+}
+.biom2 {
+	background-image: url(images/выготский.jpg);
+	background-size: cover;
+}
+.biom3 {
+	background-image: url(images/соловейчик.jpg);
+	background-size: cover;
+}
+.biom4 {
+	background-image: url(images/сухомлинский.jpg);
+	background-size: cover;
+	background-position: 0px -10px;
+}
+.biom5 {
+	background-image: url(images/ушинский.jpg);
+	background-size: cover;
+	background-position: -55px 0px;
+}
+.bio-name {
+	position: absolute;
+	left: 446px;
+	font-size: 24px; 
+}
+.citata {
+	position: absolute;
+	background-color: #d9efd8;
+	width: 569px;
+	left: 410px;
+	border: 1px solid #b4aaaa;
+	border-radius: 25px;
+}
+.znak {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-image: url(images/цитата.png);
+	border-radius: 90px;
+	background-size:cover ;
+	left: 440px;
+}
+.text-citata {
+	position: absolute;
+	font-size: 20px;
+	width: 425px;
+	left: 527px;
+}
+.bio-text {
+	position: absolute;
+	left: 111px;
+	width: 881px;
 }
