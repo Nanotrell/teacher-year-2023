@@ -71,7 +71,7 @@ border: #018901 solid 1px;
 	display:inline;
 	width: 50px;
 	height: 50px;
-	right: 25px;
+	left: 1230px;
 }
 .bot-nik {
 	font-family: "As-Nova Regular";
@@ -85,7 +85,7 @@ border: #018901 solid 1px;
 	font-size: 14px;
 	position: absolute;
 	display: inline;
-	right: 35px;
+	left: 1242px;
 }
 .line {
 	position: absolute;
