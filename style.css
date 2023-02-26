@@ -7,9 +7,6 @@ body {
 body::-webkit-scrollbar {
 	width: 12px;               /* ширина scrollbar */
 }
-/* body::-webkit-scrollbar-track { */
-	/* background: white;        цвет дорожки */
-/* } */
 body::-webkit-scrollbar-thumb {
 	background-color: #018901;    /* цвет плашки */
 	border-radius: 20px;       /* закругления плашки */
