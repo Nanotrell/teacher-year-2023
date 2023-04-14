@@ -1,7 +1,7 @@
 body {
 	margin: -1rem;
 	background-color: #f7f7f5;
-	width: 1305px;
+	width: 100%;
 	overflow: overlay;
 }
 body::-webkit-scrollbar {
@@ -182,4 +182,8 @@ border: #018901 solid 1px;
 	position: absolute;
 	left: 111px;
 	width: 881px;
+}
+.container-all {
+	width: 1305px;
+	margin: 0 auto;
 }
